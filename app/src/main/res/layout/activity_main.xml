@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBgLighter"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="0dp">
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="MATH WHIZ"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="@dimen/question_fontsize_submit"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />-->
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context="com.MathMash.MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_start"
+        android:text="START"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/menubtn_yellow"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_revisitMistakes"
+        android:background="@drawable/menubtn_red"
+        android:textColor="#fcbf00"
+        android:textStyle="bold"
+        android:text="REVISIT MISTAKES"
+        android:padding="7dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/menubtn_green"
+        android:id="@+id/btn_stats"
+        android:text="VIEW STATS"
+        android:padding="7dp"
+        android:textColor="#0c217b"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/btn_start"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_settings"
+        android:background="@drawable/menubtn_blue"
+        android:text="SETTINGS"
+        android:padding="7dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/btn_start"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_exit"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/menubtn"
+        android:text="EXIT"
+        android:padding="7dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/btn_stats"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+</LinearLayout>
+</LinearLayout>

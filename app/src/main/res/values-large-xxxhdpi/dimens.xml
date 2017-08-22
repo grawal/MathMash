@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="check_answer_padding">25dp</dimen>
+    <dimen name="question_fontsize">40sp</dimen>
+    <dimen name="question_fontsize_submit" >25sp</dimen>
+    <dimen name="operation_revisitmistakes">50sp</dimen>
+</resources>

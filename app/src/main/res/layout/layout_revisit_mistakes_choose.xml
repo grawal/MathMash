@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorBgLighter"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="@dimen/question_fontsize"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="SELECT OPERATION:"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_weight="5"
+        android:layout_height="0dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text=" + "
+        android:id="@+id/button_add"
+        android:textSize="@dimen/operation_revisitmistakes"
+        android:background="@drawable/menubtn_blue"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal|center_vertical" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text=" - "
+        android:id="@+id/button_subtract"
+        android:textSize="@dimen/operation_revisitmistakes"
+        android:background="@drawable/menubtn_green"
+        android:textStyle="bold"
+        android:textColor="#0c217b"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text=" * "
+        android:gravity="center"
+        android:textSize="@dimen/operation_revisitmistakes"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/menubtn_red"
+        android:textStyle="bold"
+        android:textColor="#fcbf00"
+        android:id="@+id/button_multiply"
+        android:layout_gravity="center_horizontal|center_vertical" />
+</LinearLayout>
+</LinearLayout>

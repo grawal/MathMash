@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    style="@style/AppTheme"
+
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="SELECT THE RANGE OF NUMBERS:"
+            android:textSize="@dimen/ab_textsize"
+            android:textColor="@color/textOnBG"
+            android:background="@color/colorBg"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+            <!--__________-->
+            <!--FROM VALUES-->
+            <!--__________-->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/settings_text"
+                android:textSize="@dimen/question_fontsize_submit"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/colorBgLighter"
+                android:text="NUM 1:"
+                android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent">
+            <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/settings_text"
+            android:textSize="@dimen/question_fontsize_submit"
+            android:text="FROM:"
+            android:layout_height="match_parent" />
+        <NumberPicker
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:descendantFocusability="blocksDescendants"
+            android:id="@+id/np_num1_from"
+            android:layout_height="wrap_content"/>
+
+
+
+            <!--.........-->
+            <!-- NUM1 TO -->
+            <!--..........-->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/settings_text"
+                android:textSize="@dimen/question_fontsize_submit"
+                android:text="TO:"
+                android:layout_height="match_parent" />
+            <NumberPicker
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:descendantFocusability="blocksDescendants"
+                android:id="@+id/np_num1_to"
+
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/settings_text"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/colorBgLighter"
+                android:text="NUM 2:"
+                android:textSize="@dimen/question_fontsize_submit"
+                android:layout_height="match_parent" />
+            <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/settings_text"
+                android:textSize="@dimen/question_fontsize_submit"
+                android:text="FROM:"
+                android:layout_height="match_parent" />
+            <NumberPicker
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:descendantFocusability="blocksDescendants"
+                android:id="@+id/np_num2_from"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/settings_text"
+                android:textSize="@dimen/question_fontsize_submit"
+                android:text="TO:"
+                android:layout_height="match_parent" />
+            <NumberPicker
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/np_num2_to"
+                android:descendantFocusability="blocksDescendants"
+                android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="SELECT OPERATION:"
+            android:textSize="@dimen/ab_textsize"
+            android:textColor="@color/textOnBG"
+            android:background="@color/colorBg"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:id="@+id/rg_operation"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:text="MULTIPLY"
+                    android:button="@android:color/transparent"
+                    android:id="@+id/rb_multiply"
+                    style="@style/settings_text"
+                    android:padding="7dp"
+                    android:background="@drawable/radio_bg"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:text="ADD"
+                    android:button="@android:color/transparent"
+                    android:id="@+id/rb_add"
+                    android:padding="7dp"
+                    android:background="@drawable/radio_bg"
+                    style="@style/settings_text"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:button="@android:color/transparent"
+                    android:text="SUBTRACT"
+                    android:background="@drawable/radio_bg"
+                    android:id="@+id/rb_subtract"
+                    android:padding="7dp"
+                    style="@style/settings_text"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:text=" "
+            android:textSize="@dimen/ab_textsize"
+            android:textColor="@color/textOnBG"
+            android:background="@color/colorBg"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</ScrollView>
+</RelativeLayout>

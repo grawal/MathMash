@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "989521209545",
+    "firebase_url": "https://admob-app-id-5386171281.firebaseio.com",
+    "project_id": "admob-app-id-5386171281",
+    "storage_bucket": "admob-app-id-5386171281.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989521209545:android:7110cb3e850449b6",
+        "android_client_info": {
+          "package_name": "com.mathwhiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989521209545-tgm5doopejunthlfj1ghmp4bc2f8hf3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpzExx2IGH1LuQAigsjYdzIK-Rm8DnY5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989521209545:android:fd0f5b623cc47461",
+        "android_client_info": {
+          "package_name": "com.mathmash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989521209545-tgm5doopejunthlfj1ghmp4bc2f8hf3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpzExx2IGH1LuQAigsjYdzIK-Rm8DnY5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

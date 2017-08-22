@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="question_fontsize">20sp</dimen>
+    <dimen name="question_fontsize_submit" >15sp</dimen>
+    <dimen name="operation_revisitmistakes">50sp</dimen>
+</resources>

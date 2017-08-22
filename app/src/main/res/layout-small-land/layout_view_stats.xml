@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tbl_stats"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_stats_details"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/lbl_stats_add"
+                android:layout_width="match_parent"
+                android:text="ADD:"
+                android:gravity="center"
+                style="@style/stats_header"
+                android:background="#1a1a74"
+                android:textColor="#2a8d20"
+                android:layout_span="3"
+                />
+        </TableRow>
+                    <TableRow android:gravity="center_vertical">
+
+                        <ImageView
+                            android:background="@drawable/checkmark"
+
+                            />
+                        <TextView
+                            android:id="@+id/txt_stats_add_correct"
+                            style="@style/settings_text"
+                            android:paddingLeft="10dp"
+
+                            android:text="1"
+                            />
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+
+                            android:text="View Details"
+                            android:background="@drawable/detailsmark"
+                            android:id="@+id/btn_viewDetails_add_correct"
+                            />
+
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical">
+                        <ImageView
+                            android:background="@drawable/wrongmark"
+                            />
+                        <TextView
+                            android:id="@+id/txt_stats_add_incorrect"
+                            style="@style/settings_text"
+                            android:paddingLeft="10dp"
+                            android:text="1"
+                            />
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="View Details"
+                            android:background="@drawable/detailsmark"
+                            android:id="@+id/btn_viewDetails_add_incorrect"
+                            />
+
+                    </TableRow>
+        </TableLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_stats_details"
+        android:layout_height="wrap_content">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lbl_stats_mult"
+                android:text="MULTIPLY:"
+                style="@style/stats_header"
+                android:background="#b51c2c"
+                android:textColor="#fcbf00"
+                android:gravity="center"
+                android:layout_span="3"
+                />
+        </TableRow>
+        <TableRow android:gravity="center_vertical">
+                    <ImageView
+                        android:background="@drawable/checkmark"
+                        />
+                    <TextView
+                        android:id="@+id/txt_stats_mult_correct"
+                        style="@style/settings_text"
+                        android:paddingLeft="20dp"
+                        android:text="1"
+                        />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:text="View Details"
+                        android:background="@drawable/detailsmark"
+                        android:id="@+id/btn_viewDetails_mult_correct"
+                        />
+                </TableRow>
+
+                <TableRow android:gravity="center_vertical">
+                    <ImageView
+                        android:background="@drawable/wrongmark"
+                        />
+                    <TextView
+                        android:id="@+id/txt_stats_mult_incorrect"
+                        style="@style/settings_text"
+                        android:paddingLeft="20dp"
+                        android:text="1"
+                        />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:text="View Details"
+                        android:background="@drawable/detailsmark"
+                        android:id="@+id/btn_viewDetails_mult_incorrect"
+                        />
+                </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_stats_details"
+        android:layout_height="wrap_content">
+        <TableRow android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/lbl_stats_sub"
+                style="@style/stats_header"
+                android:text="SUBTRACT:"
+                android:background="#0b8d1a"
+                android:textColor="#0c217b"
+                android:gravity="center"
+                android:layout_span="3"
+                />
+        </TableRow>
+                <TableRow android:gravity="center_vertical">
+                    <ImageView
+                        android:background="@drawable/checkmark"
+                        />
+                    <TextView
+                        android:id="@+id/txt_stats_sub_correct"
+                        style="@style/settings_text"
+                        android:paddingLeft="20dp"
+                        android:text="1"
+
+                        />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:text="View Details"
+                        android:background="@drawable/detailsmark"
+                        android:id="@+id/btn_viewDetails_sub_correct"
+                        />
+                </TableRow>
+                <TableRow android:gravity="center_vertical">
+                    <ImageView
+                        android:background="@drawable/wrongmark"
+                        />
+                    <TextView
+                        android:id="@+id/txt_stats_sub_incorrect"
+                        style="@style/settings_text"
+                        android:paddingLeft="20dp"
+                        android:text="1"
+                        />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:text="View Details"
+                        android:background="@drawable/detailsmark"
+                        android:id="@+id/btn_viewDetails_sub_incorrect"
+                        />
+
+                </TableRow>
+    </TableLayout>
+</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

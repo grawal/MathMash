@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MathMash</string>
+    <string name="num2_to">num2_to</string>
+    <string name="num1_from">num1_from</string>
+    <string name="num2_from">num2_from</string>
+    <string name="num1_to">num1_to</string>
+    <string name="operation">operation</string>
+    <string name="add_operation">+</string>
+    <string name="subtract_operation">-</string>
+    <string name="multiply_operation">*</string>
+</resources>
